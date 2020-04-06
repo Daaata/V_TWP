@@ -1,0 +1,295 @@
+html {
+    width: 1260px;
+    height: 940px;
+    background-color: #edf2c5;
+}
+
+body{
+  margin: 0px;
+  padding-top: 53px; 
+}
+
+.header{
+    color: #778a50;
+    padding-right: 160px;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    padding-left: 159px;
+}
+
+.logo_Vegetables {
+    width: 271px;
+    height: 42px;
+    margin-right: 465px;
+    margin-bottom: 8px;
+    font-family: Arial;
+    font-size: 44px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.82;
+    letter-spacing: normal;
+    text-align: left;
+  }
+
+  .btn_facebook {
+    margin-right: 10px;
+    margin-bottom: 17px;
+    width: 25px;
+    height: 25px;
+  }
+
+  .btn_instagram {
+    margin-bottom: 17px;
+    width: 25px;
+    height: 25px;
+  }
+
+  .line-login {
+    background-color: #778a50;
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 1px;
+    height: 25px;
+  }
+
+  .btn_LOGIN_box {
+    margin-right: 10px;
+    margin-bottom: 17px;
+    width: 60px;
+    height: 25px;
+    border-radius: 3px;
+    border: solid 1px #778a50;
+    background-color: #edf2c5;
+  }
+
+  .btn_LOGIN {
+    margin: 7px 8px 8px 9px;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 14px;
+    text-align: left;
+  }
+
+  .btn_JOIN_box {
+    margin-bottom: 17px;
+    width: 50px;
+    height: 25px;
+    border-radius: 3px;
+    border: solid 1px #778a50;
+    background-color: #edf2c5;
+  }
+
+  .btn_JOIN {
+    margin: 7px 8px 8px 9px;
+    width: 33px;
+    height: 10px;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 14px;
+    letter-spacing: normal;
+    text-align: left;
+    color: #778a50;
+  }
+
+  .nav{
+    width: 940px;
+    height: 44px;
+    border-radius: 3px;
+    background-color: #778a50;
+    margin-left: 160px;
+    margin-right: 160px;
+  }
+
+  .nav-list{
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+
+  .nav-list-item{
+    list-style: none;
+    
+  }
+
+  .nav-list-item-link{
+    margin: 16px 30px 16px 30px;
+    height: 15px;
+    display: block;
+    text-decoration: none;
+    border-bottom: none;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 16px;
+    text-align: left;
+    color: #edf2c5;
+  }
+
+  article{
+    margin-top: 20px;
+    padding-left: 160px;
+    padding-right: 160px;
+  }
+
+  .img_main_pumpkin {
+    width: 940px;
+    height: 448px;
+  }
+
+  aside{
+    display: flex;
+    flex-direction:row;
+    margin-top: 30px;
+    padding-left: 160px;
+    padding-right: 160px;
+    margin-bottom: 35px;
+  }
+
+  .leftbox{
+    margin-right: 50px;
+  }
+
+  .titlebox{
+    width: 445px;
+    height: 45px;
+    border-radius: 3px;
+    background-color: #778a50;
+    margin-bottom: 15px;
+  }
+
+  .vegetable-title{
+    padding-left: 30px;
+    padding-top: 15px;
+    width: 99px;
+    height: 15px;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 16px;
+    letter-spacing: normal;
+    text-align: left;
+    color: #edf2c5;
+  }
+
+  .imagelist{
+    display: flex;
+    flex-direction:row;
+  }
+
+  .image1{
+    width: 140px;
+    height: 140px;
+    margin-right: 12px;
+  }
+
+  .image2{
+    width: 140px;
+    height: 140px;
+    margin-right: 12px;
+  }
+
+  .image3{
+    width: 140px;
+    height: 140px;
+  }
+
+  .contact-title{
+    padding-left: 30px;
+    padding-top: 17px;
+    padding-bottom: 16px;
+    padding-right: 346px;
+    width: 69px;
+    height: 12px;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 16px;
+    letter-spacing: normal;
+    text-align: left;
+    color: #edf2c5;
+  }
+
+  .contact-box{
+    width: 445px;
+    height: 140px;
+    border-radius: 3px;
+    background-color: #f7fbda;
+  }
+
+  .info1{
+    width: 410px;
+    height: 43px;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+    color: #7d7d7d;
+    padding-top: 16px;
+    padding-left: 15px;
+    padding-bottom: 16px;
+  }
+
+  .line_contact_text {
+    width: 414px;
+    height: 1px;
+    background-color: #7d7d7d;
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+
+  .info2{
+    width: 193px;
+    height: 31px;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.83;
+    letter-spacing: normal;
+    text-align: left;
+    color: #7d7d7d;
+    padding-top: 16px;
+    padding-left: 15px;
+    padding-bottom: 17px;
+  }
+
+  footer{
+    width: 1260px;
+    height: 60px;
+    background-color: #778a50;
+    margin-bottom: 0px;
+  }
+
+  .box_footer {
+    width: 302px;
+    height: 11px;
+    padding-left: 479px;
+    padding-top: 24px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 11px;
+    letter-spacing: normal;
+    text-align: left;
+    color: #edf2c5;
+  }
